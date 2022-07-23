@@ -5,7 +5,7 @@
     android:layout_height="60dp">
 
     <Button
-        android:id="@+id/parkname_tv"
+        android:id="@+id/parkname_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
