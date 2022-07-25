@@ -27,13 +27,12 @@
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="37dp">
 
-            <Button
+            <ImageButton
                 android:id="@+id/backward_btn"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="<"
-                android:textSize="12pt" />
+                app:srcCompat="@drawable/backward" />
 
             <TextView
                 android:id="@+id/logo"
@@ -55,12 +54,21 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="37dp">
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/parkList_rv"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
+                android:layout_height="wrap_content">
+            </androidx.recyclerview.widget.RecyclerView>
         </LinearLayout>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
