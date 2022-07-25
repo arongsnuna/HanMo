@@ -14,10 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         parknameAdaptor = ParknameAdaptor(mutableListOf())
+        parknameAdaptor.initButtons()
 
-        parkList_lv.adapter = parknameAdaptor
+        parkList_rv.adapter = parknameAdaptor
         // layout manager
-        parkList_lv.layoutManager = LinearLayoutManager(this)
+        parkList_rv.layoutManager = LinearLayoutManager(this)
 
     }
 }

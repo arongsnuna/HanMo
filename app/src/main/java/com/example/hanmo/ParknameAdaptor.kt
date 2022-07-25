@@ -13,7 +13,7 @@ class ParknameAdaptor(
         item_view:View
     ) : RecyclerView.ViewHolder(item_view)
 
-    fun initParks() {
+    private fun initParks() {
         val parknamelist = listOf<String>( /* read only list */
             "강서지구", "양화지구", "난지지구", "망원지구", "선유도지구",
             "여의도지구", "이촌지구", "반포지구", "잠원지구", "뚝섬지구",
@@ -25,10 +25,15 @@ class ParknameAdaptor(
         }
     }
 
-    fun getIndex(park:Parkname) = park.index
+    fun initButtons() {
+        initParks()
+        for (i:Int in 0 until parks.size) {
+            notifyItemInserted(i)
+        }
+
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ParkViewHolder {
-        initParks()
         return ParkViewHolder(
             LayoutInflater.from(parent.context).inflate(
                 R.layout.item_park,
