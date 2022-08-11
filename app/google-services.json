@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1594155970",
+    "project_id": "hanmo-1",
+    "storage_bucket": "hanmo-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1594155970:android:cc4cce9aaf6db63072ec5b",
+        "android_client_info": {
+          "package_name": "com.jin.hanmo_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1594155970-4tkodlq8vl1o6lrsrfdsj4hd94ermleq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQAGiFq-xjtX2ps45Gwx8z2l8nXxYA5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1594155970-4tkodlq8vl1o6lrsrfdsj4hd94ermleq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

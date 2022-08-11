@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HanMo</string>
+    <string name="mapImage">map_image</string>
+    <string name="social">게시판</string>
+    <string name="upload">공유</string>
+</resources>
