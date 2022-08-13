@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".ComDetailActivity">
 
     <LinearLayout
-        android:id="@+id/upper_bar"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:gravity="center"
@@ -20,11 +19,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/user_btn"
+            android:id="@+id/backward_btn"
             android:layout_width="0dp"
             android:layout_height="55sp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/user" />
+            app:srcCompat="@drawable/backward" />
 
         <TextView
             android:id="@+id/logo"
@@ -42,20 +41,29 @@
             android:layout_width="0dp"
             android:layout_height="55sp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/community" />
+            app:srcCompat="@drawable/write" />
 
     </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/parkList_rv"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+    <TextView
+        android:id="@+id/postcontent_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:backgroundTint="@color/grey"
+        android:text="postcontent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/comments_rv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upper_bar">
-    </androidx.recyclerview.widget.RecyclerView>
+        app:layout_constraintTop_toBottomOf="@+id/postcontent_tv" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

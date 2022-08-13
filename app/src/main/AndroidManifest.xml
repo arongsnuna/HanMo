@@ -14,6 +14,20 @@
         android:theme="@style/Theme.HanMo"
         tools:targetApi="31">
         <activity
+            android:name=".ComWritePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComMainActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
