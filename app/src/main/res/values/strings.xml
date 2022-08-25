@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HanMo</string>
+<<<<<<< HEAD
+    <string name="mapImage">map_image</string>
+    <string name="social">게시판</string>
+    <string name="upload">공유</string>
+=======
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
 </resources>

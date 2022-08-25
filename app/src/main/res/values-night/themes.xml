@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
+    <style name="Theme.HanMo_1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+=======
     <style name="Theme.HanMo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
