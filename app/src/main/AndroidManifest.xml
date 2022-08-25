@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
     package="com.jin.hanmo_1">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+=======
+    package="com.example.hanmo">
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
 
     <application
         android:allowBackup="true"
@@ -13,6 +17,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+<<<<<<< HEAD
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -40,6 +45,26 @@
         <activity
             android:name=".MapActivity"
             android:exported="false" />
+=======
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HanMo"
+        tools:targetApi="31">
+        <activity
+            android:name=".ComWritePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComMainActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -49,10 +74,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="25cf69da5f0bc8dd506891e4089a4cb0" />
+=======
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
     </application>
 
 </manifest>

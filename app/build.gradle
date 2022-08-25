@@ -1,15 +1,26 @@
 plugins {
+<<<<<<< HEAD
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+=======
+    id 'kotlin-android-extensions'
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
 }
 
 android {
     compileSdk 32
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "com.jin.hanmo_1"
         minSdk 19
+=======
+        applicationId "com.example.hanmo"
+        minSdk 21
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -17,10 +28,13 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+<<<<<<< HEAD
     buildFeatures {
         dataBinding  true
     }
 
+=======
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
     buildTypes {
         release {
             minifyEnabled false
@@ -42,8 +56,11 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+<<<<<<< HEAD
     implementation files('libs\\libDaumMapAndroid.jar')
     implementation 'com.google.firebase:firebase-database-ktx:20.0.5'
+=======
+>>>>>>> cb463388c03b83e19b34df645e4a99b274b9b513
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
